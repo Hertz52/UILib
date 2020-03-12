@@ -1,4 +1,4 @@
-package com.zhongdihang.survey.widget;
+package com.zhongdihang.demotrackview;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,8 +13,6 @@ import android.util.AttributeSet;
 import android.view.View;
 
 import androidx.annotation.Nullable;
-
-import com.zhongdihang.survey.R;
 
 
 public class MyVerticalTrackView extends View {
@@ -53,7 +51,7 @@ public class MyVerticalTrackView extends View {
         mLinePaint.setColor(colorAccent);
         mLinePaint.setStrokeWidth(dp2px(1));
 
-        mBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.ic_progress_done);
+        mBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.ic_ok);
     }
 
     @Override
