@@ -17,7 +17,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.zhongdihang.demotrackview.MyVerticalTrackView
+    <com.zhongdihang.uilib.MyVerticalTrackView
         android:id="@+id/track_view"
         android:layout_width="100dp"
         android:layout_height="100dp"

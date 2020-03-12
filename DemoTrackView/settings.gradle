@@ -1,2 +1,3 @@
 rootProject.name='DemoTrackView'
 include ':app'
+include ':uilib'
